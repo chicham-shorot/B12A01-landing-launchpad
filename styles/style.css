@@ -1,7 +1,54 @@
+/* imported google font in style.css file  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --inter-font: "Inter", sans-serif;
+    --raleway-font: "Raleway", sans-serif;
+}
 
 *{
     padding: 0;
     margin: 0;
-    
+
+}
+
+main{
+    margin: 3rem 5rem;
+}
+
+/* navigation bar container styles start  */
+
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 5rem;
+}
+
+.page-logo{
+    color: #4E47FF;
+    font-family: var(--inter-font);
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.page-logo a{
+    text-decoration: none;
+    color: #4E47FF;
+}
+
+.sign-up-btn{
+    padding: 1rem;
+    background-color: #4E47FF;
+    color: white;
+    font-family: var(--raleway-font);
+    border: none;
+    border-radius: 0.4rem;
+    font-weight: 800;
+}
+
+.sign-up-btn:hover{
+    box-shadow: 2px 2px 10px #7977b1;
 }
