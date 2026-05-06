@@ -52,3 +52,32 @@ main{
 .sign-up-btn:hover{
     box-shadow: 2px 2px 10px #7977b1;
 }
+
+/* banner container styles here  */
+.banner-content{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+.banner-title{
+    margin-bottom: 1rem;
+    font-family: var(--raleway-font);
+    color: #252432;
+}
+
+.banner-btn{
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #4E47FF;
+    font-family: var(--raleway-font);
+}
+
+.banner-btn:hover{
+    box-shadow: 2px 2px 10px 2px #7977b1;
+}
