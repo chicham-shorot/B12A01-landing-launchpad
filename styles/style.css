@@ -268,3 +268,37 @@ main{
     width: 100%;
 }
 
+/* footer container styles here  */
+
+.footer-container{
+    text-align: center;
+    margin: 3rem 0rem;
+}
+
+.footer-title{
+    font-family: var(--inter-font);
+    font-size: 10rem;
+    color: #4E47FF;
+
+}
+
+.footer-description{
+    color: #8987A1;
+    width: 50%;
+    margin: 1rem auto;
+}
+
+.footer-tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.footer-tabs a{
+    text-decoration: none;
+    color: #8987A1;
+    font-family: var(--raleway-font);
+    font-size: medium;
+}
