@@ -243,3 +243,28 @@ main{
 #better-img:hover{
     box-shadow: 2px 2px 10px 0px #7977b1;
 }
+
+/* get in touch container styles here  */
+
+
+.get-touch-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    margin: 3rem 0rem;
+}
+
+.get-touch-title{
+    font-family: var(--inter-font);
+    font-size: 4rem;
+}
+
+
+.get-touch-form input{
+    display: block;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
